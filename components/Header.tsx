@@ -1,13 +1,18 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
-
+import { motion } from "framer-motion";
 type Props = {};
 
 export const Header = (props: Props) => {
 	return (
-		<header className="flex items-center justify-between p-2">
+		<header className="sticky top-0 z-20 max-w-7xl mx-auto flex items-center justify-between p-4 py-8">
 			{/* left side */}
-			<div className="space-x-3">
+			<motion.div
+				initial={{ x: -500, opacity: 0 }}
+				animate={{ x: 0, opacity: 1 }}
+				transition={{ duration: 1 }}
+				className="space-x-3"
+			>
 				<SocialIcon
 					bgColor="gray"
 					style={{ height: 45, width: 45 }}
@@ -23,17 +28,24 @@ export const Header = (props: Props) => {
 					style={{ height: 45, width: 45 }}
 					url="https://github.com/Thabish-Kader"
 				/>
-			</div>
+			</motion.div>
 
 			{/* Right side */}
-			<div className="space-x-2 flex items-center">
-				<p className="text-lg font-medium uppercase">Contact Me</p>
+			<motion.div
+				initial={{ x: 500, opacity: 0 }}
+				animate={{ x: 0, opacity: 1 }}
+				transition={{ duration: 1 }}
+				className="space-x-2 flex items-center"
+			>
+				<p className="text-lg font-medium uppercase text-[#808080]">
+					Lets Connect
+				</p>
 				<SocialIcon
 					bgColor="gray"
 					style={{ height: 45, width: 45 }}
 					url="mailto:kadertabish@gmail.com"
 				/>
-			</div>
+			</motion.div>
 		</header>
 	);
 };
