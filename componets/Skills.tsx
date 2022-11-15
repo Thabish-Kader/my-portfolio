@@ -1,6 +1,14 @@
 import React from "react";
 import { SkillRow } from "../components/SkillRow";
 import { motion } from "framer-motion";
+import typescript from "../public/assets/typescript.svg";
+import nextImg from "../public/assets/nextjs.png";
+import prismaImg from "../public/assets/prismaImg.png";
+import firebaseImg from "../public/assets/firebaseImg.png";
+import trpcImg from "../public/assets/trpcImg.svg";
+import tailwind from "../public/assets/tailwind.jpg";
+import git from "../public/assets/git.png";
+import sanity from "../public/assets/sanity.png";
 import Image from "next/image";
 type Props = {};
 
@@ -22,14 +30,22 @@ export const Skills = (props: Props) => {
 					</h2>
 				</div>
 				<div className="grid grid-cols-4 gap-5">
-					<SkillRow slide="left" />
-					<SkillRow slide="left" />
-					<SkillRow slide="left" />
-					<SkillRow slide="left" />
-					<SkillRow />
-					<SkillRow />
-					<SkillRow />
-					<SkillRow />
+					<SkillRow
+						image={typescript}
+						slide="left"
+						name="TypeScript"
+					/>
+					<SkillRow image={nextImg} slide="left" name="Next Js" />
+					<SkillRow image={prismaImg} slide="left" name="Prisma" />
+					<SkillRow
+						image={firebaseImg}
+						slide="left"
+						name="Firebase"
+					/>
+					<SkillRow image={trpcImg} name="tRPC" />
+					<SkillRow image={tailwind} name="Taillwind" />
+					<SkillRow image={git} name="Git" />
+					<SkillRow image={sanity} name="Sanity" />
 				</div>
 			</motion.div>
 		</section>
