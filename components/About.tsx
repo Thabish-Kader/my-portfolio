@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import avatar from "../public/assets/avatar.png";
+import { motion } from "framer-motion";
 type Props = {};
 
 export const About = (props: Props) => {
@@ -11,7 +12,12 @@ export const About = (props: Props) => {
 					About ME
 				</h1>
 				<div className="grid md:grid-cols-2 gap-2 ">
-					<div className="flex justify-center items-center">
+					<motion.div
+						initial={{ y: 300, opacity: 0 }}
+						whileInView={{ y: 0, opacity: 1 }}
+						transition={{ duration: 1 }}
+						className="flex justify-center items-center"
+					>
 						<div className="relative h-[300px] w-[200px] md:h-[500px] md:w-[400px]">
 							<Image
 								src={avatar}
@@ -19,8 +25,13 @@ export const About = (props: Props) => {
 								className="object-cover rounded-lg md:rounded-lg"
 							/>
 						</div>
-					</div>
-					<p className="text-gray-500 text-justify">
+					</motion.div>
+					<motion.p
+						initial={{ y: -300, opacity: 0 }}
+						whileInView={{ y: 0, opacity: 1 }}
+						transition={{ duration: 1 }}
+						className="text-gray-500 text-justify"
+					>
 						Lorem ipsum, dolor sit amet consectetur adipisicing
 						elit. In consequuntur a ratione pariatur ullam iusto
 						ipsum, aliquam ad impedit, veniam rem, eos quibusdam
@@ -34,7 +45,7 @@ export const About = (props: Props) => {
 						recusandae blanditiis animi exercitationem deleniti,
 						aperiam quisquam labore numquam tempora libero assumenda
 						asperiores distinctio ipsum minus. Dolor, iure!
-					</p>
+					</motion.p>
 				</div>
 			</div>
 		</section>
