@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import avatar from "../public/assets/avatar.png";
 import { motion } from "framer-motion";
+import { SkillRow } from "./SkillRow";
 type Props = {};
 
 export const About = (props: Props) => {
