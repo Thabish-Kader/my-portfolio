@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.hero-btn {
+		@apply uppercase text-sm hover:text-purple-500 text-gray-500 hover:border px-2 rounded-lg hover:border-purple-500 tracking-wide;
+	}
+}
