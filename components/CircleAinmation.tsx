@@ -4,7 +4,12 @@ type Props = {};
 
 export const CircleAinmation = (props: Props) => {
 	return (
-		<motion.div className="absolute top-0 h-screen flex items-center justify-center">
+		<motion.div
+			initial={{ opacity: 0 }}
+			animate={{ scale: [2, 2, 1], opacity: 1 }}
+			transition={{ duration: 2 }}
+			className="absolute top-0 h-screen flex items-center justify-center"
+		>
 			<div className=" relative flex items-center justify-center ">
 				<div className="absolute h-[250px] animate-ping border-[#333333] w-[250px] rounded-full border" />
 				<div className="absolute h-[300px] animate-ping w-[300px] border border-[#333333] rounded-full" />
