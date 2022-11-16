@@ -13,7 +13,12 @@ export const Projects = (props: Props) => {
 				Projects
 			</h1>
 			<div className="flex items-center h-full justify-center">
-				<div>hello</div>
+				<div>
+					{/* image */}
+					<div></div>
+					{/* info */}
+					<div></div>
+				</div>
 			</div>
 		</section>
 	);
