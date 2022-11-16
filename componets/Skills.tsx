@@ -31,7 +31,7 @@ export const Skills = (props: Props) => {
 						Tools and Languages I utilize
 					</h2>
 				</div>
-				<div className="flex flex-wrap justify-center items-center space-x-3 ">
+				<div className="flex flex-row flex-wrap justify-center items-center space-x-3 ">
 					<SkillRow
 						image={typescript}
 						slide="left"
