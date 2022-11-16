@@ -9,16 +9,18 @@ import trpcImg from "../public/assets/trpcImg.svg";
 import tailwind from "../public/assets/tailwind.jpg";
 import git from "../public/assets/git.png";
 import sanity from "../public/assets/sanity.png";
+import t3 from "../public/assets/t3.png";
 import Image from "next/image";
 type Props = {};
 
 export const Skills = (props: Props) => {
 	return (
-		<section id="skills" className="h-screen snap-start">
+		<section id="skills" className="h-screen  snap-start overflow-x-hidden">
 			<motion.div
 				initial={{ opacity: 0 }}
 				whileInView={{ opacity: 1 }}
 				transition={{ duration: 3 }}
+				viewport={{ once: true }}
 				className="relative z-10 flex max-w-lg sm:max-w-xl md:max-w-5xl mx-auto flex-col h-full items-center justify-center"
 			>
 				<div className=" flex flex-col justify-center items-center space-y-3">
@@ -29,7 +31,7 @@ export const Skills = (props: Props) => {
 						Tools and Languages I utilize
 					</h2>
 				</div>
-				<div className="grid grid-cols-4 gap-5">
+				<div className="flex flex-wrap justify-center items-center space-x-3 ">
 					<SkillRow
 						image={typescript}
 						slide="left"
@@ -46,6 +48,7 @@ export const Skills = (props: Props) => {
 					<SkillRow image={tailwind} name="Taillwind" />
 					<SkillRow image={git} name="Git" />
 					<SkillRow image={sanity} name="Sanity" />
+					<SkillRow image={t3} name="T3" />
 				</div>
 			</motion.div>
 		</section>
