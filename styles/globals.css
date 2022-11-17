@@ -6,4 +6,7 @@
 	.hero-btn {
 		@apply uppercase text-sm hover:text-purple-500 text-gray-500 hover:border px-2 rounded-lg hover:border-purple-500 tracking-wide;
 	}
+	.contact-inputs {
+		@apply bg-[#2f3133] rounded-lg  focus:border-b p-2 outline-none focus:text-purple-400 focus:border-purple-400  text-gray-500 placeholder:text-gray-500;
+	}
 }

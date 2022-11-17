@@ -54,7 +54,7 @@ export const Projects = (props: Props) => {
 					</div>
 				))}
 			</div>
-			<div className="w-full absolute top-[30%] bg-purple-500/10 left-0 h-[500px] -skew-y-12"></div>
+			<div className="w-full animate-pulse absolute top-[30%] bg-purple-400/25 left-0 h-[500px] -skew-y-12"></div>
 		</motion.section>
 	);
 };
