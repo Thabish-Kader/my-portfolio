@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=VT323&display=swap");
+
 @layer components {
 	.hero-btn {
 		@apply uppercase text-sm hover:text-purple-500 text-gray-500 hover:border px-2 rounded-lg hover:border-purple-500 tracking-wide;

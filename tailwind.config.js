@@ -7,6 +7,9 @@ module.exports = {
 	],
 	theme: {
 		extend: {},
+		fontFamily: {
+			terminal: "VT323",
+		},
 	},
 	plugins: [],
 };
