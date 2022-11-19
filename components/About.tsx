@@ -33,16 +33,16 @@ export const About = (props: Props) => {
 						transition={{ duration: 1 }}
 						className="text-gray-500 text-justify"
 					>
-						Hi there! I'm{" "}
-						<span className="text-[#64ffda]">Thabish </span>. I' m a
-						passionate developer who loves building things with
-						code. My first experience with programming was when I
-						started my coding journey as a naive computer science
-						student with a passion to learn everything I could about
-						tech - code, cloud, ai, machine learning etc. And all
-						the while, teaching myself data science with a dream to
-						automate everything. But that soon got overshadowed by
-						my desire to build web applications with{" "}
+						Hi there! I&apos;m{" "}
+						<span className="text-[#64ffda]">Thabish </span>.
+						I&apos;m a passionate developer who loves building
+						things with code. My first experience with programming
+						was when I started my coding journey as a naive computer
+						science student with a passion to learn everything I
+						could about tech - code, cloud, ai, machine learning
+						etc. And all the while, teaching myself data science
+						with a dream to automate everything. But that soon got
+						overshadowed by my desire to build web applications with{" "}
 						<span className="text-[#64ffda]">
 							react, tailwind and typescript
 						</span>{" "}
@@ -52,13 +52,13 @@ export const About = (props: Props) => {
 						That in combination with frameworks such as{" "}
 						<span className="text-[#64ffda]">Next Js</span> . I
 						found myself starting to build full-stack applications.
-						Since then, I’ve been honing my skills and learning
+						Since then, I&apos;ve been honing my skills and learning
 						Typescript, and tailwind. I recently graduated from
 						Middle East College with a{" "}
 						<span className="text-[#64ffda]">
 							Computer Science degree
 						</span>
-						. I’m seeking a{" "}
+						. I&apos;m seeking a{" "}
 						<span className="text-[#64ffda]">full-time role </span>
 						where I can help a company achieve their goals and put
 						my skills to use.
