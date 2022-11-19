@@ -17,12 +17,15 @@ export const Projects = (props: Props) => {
 			id="projects"
 			className="snap-start h-screen relative flex flex-col text-left md:flex-row max-w-full overflow-hidden justify-evenly mx-auto items-center z-0"
 		>
-			<h1 className="absolute top-24 left-[40%] text-gray-500 text-2xl uppercase tracking-[15px] font-bold">
+			<h1 className=" absolute top-24 left-[40%] text-gray-500 text-2xl uppercase tracking-[15px] font-bold">
 				Projects
 			</h1>
 			<div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
 				{projects.map((project, i) => (
-					<div className="w-screen flex flex-col xl:grid-cols-2 xl:grid flex-shrink-0 snap-center items-center justify-center space-y-5 space-x-5 p-20 h-screen">
+					<div
+						key={i}
+						className="w-screen flex flex-col xl:grid-cols-2 xl:grid flex-shrink-0 snap-center items-center justify-center space-y-5 space-x-5 p-20 h-screen"
+					>
 						<motion.div
 							initial={{ y: -300, opacity: 0 }}
 							transition={{ duration: 1.2 }}

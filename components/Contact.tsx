@@ -28,10 +28,11 @@ export const Contact = (props: Props) => {
 				Contact
 			</h1>
 			<div>
-				<h1 className="text-xl text-gray-500 tracking-widest uppercase">
-					Lets Connect and build something{" "}
+				<h1 className="text-xl text-gray-500 tracking-widest uppercase max-w-xl">
+					Feel free to reach out it you're looking for a developer,
+					have a question or just want to{" "}
 					<span className="text-purple-500 animate-pulse">
-						amazing
+						CONNECT
 					</span>
 					<form
 						onClick={handleSubmit(onSubmit)}

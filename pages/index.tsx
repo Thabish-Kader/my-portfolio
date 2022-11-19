@@ -8,7 +8,7 @@ import { Skills } from "../componets/Skills";
 
 export default function Home() {
 	return (
-		<div className="bg-[#242424] h-screen text-white scroll-smooth snap-y snap-mandatory overflow-scroll">
+		<div className="bg-[#0a192f] h-screen text-white scroll-smooth snap-y snap-mandatory overflow-scroll">
 			<Head>
 				<title>Thabish Protfolio</title>
 				<meta />

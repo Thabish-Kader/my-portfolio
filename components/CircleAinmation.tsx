@@ -10,9 +10,9 @@ export const CircleAinmation = (props: Props) => {
 			transition={{ duration: 2 }}
 			className="relative top-[15%] flex items-center justify-center"
 		>
-			<div className="absolute h-[250px] animate-ping border-purple-500/50 w-[250px] rounded-full border" />
-			<div className="absolute h-[300px] animate-ping w-[300px] border border-purple-500/50 rounded-full" />
-			<div className="absolute h-[500px] animate-pulse w-[500px] border border-purple-500/10 rounded-full" />
+			<div className="absolute h-[250px] animate-ping border-[#64ffda]/50 w-[250px] rounded-full border" />
+			<div className="absolute h-[300px] animate-ping w-[300px] border border-[#64ffda]/50 rounded-full" />
+			<div className="absolute h-[500px] animate-pulse w-[500px] border border-[#64ffda]/10 rounded-full" />
 			<motion.div
 				animate={{ rotate: 360 }}
 				transition={{
@@ -20,7 +20,7 @@ export const CircleAinmation = (props: Props) => {
 					duration: 5,
 					repeat: Infinity,
 				}}
-				className="absolute  h-[550px] w-[550px]  rounded-lg border border-purple-500 "
+				className="absolute  h-[550px] w-[550px]  rounded-lg border border-[#64ffda] "
 			/>
 			<motion.div
 				animate={{ rotate: -360 }}
@@ -29,9 +29,9 @@ export const CircleAinmation = (props: Props) => {
 					duration: 5,
 					repeat: Infinity,
 				}}
-				className="absolute  h-[550px] w-[550px]  rounded-lg border border-purple-500 "
+				className="absolute  h-[550px] w-[550px]  rounded-lg border border-[#64ffda] "
 			/>
-			<div className="absolute h-[770px] w-[770px] animate-pulse rounded-full border border-purple-500" />
+			<div className="absolute h-[770px] w-[770px] animate-pulse rounded-full border border-[#64ffda]" />
 		</motion.div>
 
 		// <motion.div

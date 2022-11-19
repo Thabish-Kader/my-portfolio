@@ -34,7 +34,7 @@ export const Hero = (props: Props) => {
 						Web Developer
 					</h2>
 
-					<h1 className="pt-1 text-2xl text-purple-500 font-semibold lg:text-4xl">
+					<h1 className="pt-1 text-2xl text-[#64ffda] font-semibold lg:text-4xl">
 						<span>{text}</span>
 						{/* Make sure to add this line or else the button will jump up and down */}
 						<Cursor cursorColor="#8547bf" />
