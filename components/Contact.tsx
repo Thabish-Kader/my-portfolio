@@ -79,6 +79,12 @@ export const Contact = (props: Props) => {
 			<p className="hidden py-1 lg:block absolute top-[82%] left-[-26px] bg-[#0a192f] uppercase tracking-widest text-gray-500  rotate-90">
 				get in touch
 			</p>
+			<div className=" absolute flex space-y-4  flex-col bottom-14 left-[50%] ">
+				<h1 className="animate-pulse text-[#64ffda] text-xl -rotate-90">
+					{"-->"}
+				</h1>
+				<p className="tracking-widest text-gray-500">SCROLL</p>
+			</div>
 		</motion.section>
 	);
 };

@@ -60,6 +60,12 @@ export const Skills = (props: Props) => {
 			<p className="hidden py-1 lg:block absolute top-[50%] left-[-27px] bg-[#0a192f] uppercase tracking-widest text-gray-500  rotate-90">
 				Tools i love
 			</p>
+			<div className=" absolute flex space-y-4 flex-col bottom-10 left-[50%] ">
+				<p className="tracking-widest text-gray-500">SCROLL</p>
+				<h1 className="animate-pulse text-[#64ffda] text-xl rotate-90">
+					{"-->"}
+				</h1>
+			</div>
 		</section>
 	);
 };
