@@ -7,7 +7,7 @@ type Props = {};
 
 export const About = (props: Props) => {
 	return (
-		<section id="about" className="h-screen snap-start">
+		<section id="about" className="relative h-screen snap-start">
 			<div className="flex max-w-lg sm:max-w-xl md:max-w-5xl mx-auto flex-col h-full items-center justify-center">
 				<h1 className="text-[#64ffda] animate-pulse text-4xl uppercase tracking-[15px] font-bold mb-20">
 					About ME
@@ -49,6 +49,11 @@ export const About = (props: Props) => {
 					</motion.p>
 				</div>
 			</div>
+
+			<div className="absolute top-[0] left-10 h-screen  lg:border border-gray-500"></div>
+			<p className="hidden py-1 lg:block absolute top-[20%] left-[-38px] bg-[#0a192f] uppercase tracking-widest text-gray-500  rotate-90">
+				get to know me
+			</p>
 		</section>
 	);
 };

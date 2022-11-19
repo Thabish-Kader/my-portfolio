@@ -55,6 +55,11 @@ export const Skills = (props: Props) => {
 					<SkillRow image={t3} name="T3" />
 				</div>
 			</motion.div>
+
+			<div className="absolute top-[0] left-10 h-screen  lg:border border-gray-500"></div>
+			<p className="hidden py-1 lg:block absolute top-[50%] left-[-27px] bg-[#0a192f] uppercase tracking-widest text-gray-500  rotate-90">
+				Tools i love
+			</p>
 		</section>
 	);
 };

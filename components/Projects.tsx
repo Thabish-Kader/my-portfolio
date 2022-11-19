@@ -57,7 +57,11 @@ export const Projects = (props: Props) => {
 					</div>
 				))}
 			</div>
-			<div className="w-full animate-pulse absolute top-[30%] bg-[#64ffda]/25 left-0 h-[500px] -skew-y-12"></div>
+			{/* <div className="w-full animate-pulse absolute top-[30%] bg-[#64ffda]/25 left-0 h-[500px] skew-y-12"></div> */}
+			<div className="absolute top-[0] left-10 h-screen  lg:border border-gray-500"></div>
+			<p className="hidden py-1 lg:block absolute top-[60%] left-[-100px] bg-[#0a192f] uppercase tracking-widest text-gray-500  rotate-90">
+				Projects i have worked on
+			</p>
 		</motion.section>
 	);
 };

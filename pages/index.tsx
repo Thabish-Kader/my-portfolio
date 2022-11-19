@@ -27,6 +27,7 @@ export default function Home() {
 			<Projects />
 			{/* Contact Me */}
 			<Contact />
+			<div className=" animate-pulse absolute top-0 bg-[#64ffda] right-10 h-screen xl:w-[1px] "></div>
 		</div>
 	);
 }

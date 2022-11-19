@@ -74,6 +74,11 @@ export const Contact = (props: Props) => {
 					</form>
 				</h1>
 			</div>
+
+			<div className="absolute top-[0] left-10 h-screen  lg:border border-gray-500"></div>
+			<p className="hidden py-1 lg:block absolute top-[82%] left-[-26px] bg-[#0a192f] uppercase tracking-widest text-gray-500  rotate-90">
+				get in touch
+			</p>
 		</motion.section>
 	);
 };
