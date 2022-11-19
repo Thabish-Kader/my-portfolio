@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { ProjectsRow } from "./ProjectsRow";
-import netflix from "../public/assets/netflix.webp";
+import { projectData } from "../projectData";
 
 type Props = {};
 
@@ -21,8 +21,18 @@ export const Projects = (props: Props) => {
 				Projects
 			</h1>
 			<div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-hide">
-				{projects.map((project, i) => (
-					<ProjectsRow />
+				{projectData.map((project, index) => (
+					<ProjectsRow
+						key={index}
+						bannerImg={project.bannerImg}
+						projectTitle={project.projectTitle}
+						stack1={project.stack1}
+						stack2={project.stack2}
+						stack3={project.stack3}
+						projectDescription={project.projectDescription}
+						link={project.link}
+						code={project.code}
+					/>
 				))}
 			</div>
 			<div className="absolute top-[40%] right-10">

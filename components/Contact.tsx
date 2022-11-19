@@ -1,7 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { AiFillPhone, AiFillMessage } from "react-icons/ai";
 
+import { FaRegAddressBook } from "react-icons/fa";
 type Props = {};
 type Inputs = {
 	name: string;
@@ -34,6 +36,20 @@ export const Contact = (props: Props) => {
 					<span className="text-[#64ffda] animate-pulse">
 						CONNECT
 					</span>
+					<div className="flex p-4 items-center justify-between max-w-lg mx-auto">
+						<AiFillPhone
+							className="text-[#64ffda] animate-pulse"
+							size={30}
+						/>
+						<AiFillMessage
+							className="text-[#64ffda] animate-pulse"
+							size={30}
+						/>
+						<FaRegAddressBook
+							className="text-[#64ffda] animate-pulse"
+							size={30}
+						/>
+					</div>
 					<form
 						onSubmit={handleSubmit(onSubmit)}
 						className="flex mt-10 flex-col justify-center space-y-5 w-fit"

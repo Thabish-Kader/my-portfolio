@@ -8,14 +8,16 @@ import { GiDirectionSign } from "react-icons/gi";
 import { GrGithub } from "react-icons/gr";
 import Link from "next/link";
 type Props = {
-	// bannerImg: StaticImageData;
-	// projectTitle: string;
-	// stack1?: StaticImageData;
-	// stack2?: StaticImageData;
-	// stack3?: StaticImageData;
-	// stack4?: StaticImageData;
-	// stack5?: StaticImageData;
-	// projectDescription:string;
+	bannerImg: StaticImageData;
+	projectTitle: string;
+	stack1?: StaticImageData;
+	stack2?: StaticImageData;
+	stack3?: StaticImageData;
+	stack4?: StaticImageData;
+	stack5?: StaticImageData;
+	projectDescription: string;
+	link: string;
+	code: string;
 };
 
 export const ProjectsRow = (props: Props) => {
@@ -30,37 +32,35 @@ export const ProjectsRow = (props: Props) => {
 				className="mx-auto h-[400px] w-[600px] relative mt-12"
 			>
 				<Image
-					src={netflix}
+					src={props.bannerImg}
 					alt=""
 					className="object-cover rounded-lg"
 					fill
 				/>
 			</motion.div>
 			<div className="flex items-center justify-center flex-col space-y-2 ">
-				<h4 className="text-4xl font-bold">Project 1 of 3</h4>
+				<h4 className="text-4xl font-bold">{props.projectTitle}</h4>
 				<div className="flex justify-center space-x-3 items-center">
 					<Image
-						src={tailwind}
+						src={props.stack1 as StaticImageData}
 						alt="/"
-						className="object-cover h-16 w-16 rounded-full"
+						className="object-cover h-12 w-12 rounded-full"
 					/>
 					<Image
-						src={firebase}
+						src={props.stack2 as StaticImageData}
 						alt="/"
-						className="object-cover h-16 w-16 rounded-full"
+						className="object-cover h-12 w-12 rounded-full"
+					/>
+					<Image
+						src={props.stack3 as StaticImageData}
+						alt="/"
+						className="object-cover h-12 w-12 rounded-full"
 					/>
 				</div>
 
-				<p className="text-justify ">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Possimus qui voluptatibus fuga minima ea quo eligendi iure
-					in rerum quibusdam porro, repudiandae voluptas nobis alias
-					aperiam facere ex, ipsum animi? Animi alias reprehenderit
-					rerum ex quis veritatis nemo soluta magnam vel! Dicta,
-					voluptate itaque
-				</p>
+				<p className="text-justify ">{props.projectDescription}</p>
 				<div className="relative flex justify-start items-center space-x-4">
-					<Link href="https://github.com/Thabish-Kader/Netflix-UI">
+					<Link href={props.link}>
 						<div className="flex flex-col items-center justify-center cursor-pointer group hover:scale-125 duration-500 ">
 							<GiDirectionSign
 								className="group-hover:text-orange-500"
@@ -69,7 +69,7 @@ export const ProjectsRow = (props: Props) => {
 							<p className="group-hover:text-orange-500">Demo</p>
 						</div>
 					</Link>
-					<Link href="https://github.com/Thabish-Kader/Netflix-UI">
+					<Link href={props.code}>
 						<div className="flex flex-col items-center justify-center cursor-pointer group hover:scale-125 duration-500 ">
 							<GrGithub
 								className="group-hover:text-purple-500"
