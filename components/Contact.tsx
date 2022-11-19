@@ -24,7 +24,7 @@ export const Contact = (props: Props) => {
 			transition={{ duration: 3 }}
 			className="h-screen overflow-x-hidden snap-start relative flex flex-col items-center justify-center"
 		>
-			<h1 className="absolute top-24 left-[40%]  text-[#64ffda] text-4xl uppercase tracking-[15px] font-bold">
+			<h1 className="absolute top-24 left-[40%] animate-pulse  text-[#64ffda] text-4xl uppercase tracking-[15px] font-bold">
 				Contact
 			</h1>
 			<div>

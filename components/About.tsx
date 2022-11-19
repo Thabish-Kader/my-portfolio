@@ -33,19 +33,35 @@ export const About = (props: Props) => {
 						transition={{ duration: 1 }}
 						className="text-gray-500 text-justify"
 					>
-						Lorem ipsum, dolor sit amet consectetur adipisicing
-						elit. In consequuntur a ratione pariatur ullam iusto
-						ipsum, aliquam ad impedit, veniam rem, eos quibusdam
-						incidunt consequatur fuga deserunt ea voluptatibus.
-						Sapiente! Dolor eius saepe repudiandae aliquam non
-						tempora consequuntur, sint ea quam expedita aut.
-						Provident culpa, reiciendis vitae aliquid, ab enim
-						obcaecati praesentium labore impedit beatae maxime,
-						perferendis ipsa delectus aliquam. Quas nam delectus ea
-						id dolor nobis sapiente est totam eaque temporibus
-						recusandae blanditiis animi exercitationem deleniti,
-						aperiam quisquam labore numquam tempora libero assumenda
-						asperiores distinctio ipsum minus. Dolor, iure!
+						Hi there! I’m{" "}
+						<span className="text-[#64ffda]">Thabish</span>. I’m a
+						passionate developer who loves building things with
+						code. My first experience with programming was when I
+						started my coding journey as a naive computer science
+						student with a passion to learn everything I could about
+						tech - code, cloud, ai, machine learning etc. And all
+						the while, teaching myself data science with a dream to
+						automate everything. But that soon got overshadowed by
+						my desire to build web applications with{" "}
+						<span className="text-[#64ffda]">
+							react, tailwind and typescript
+						</span>{" "}
+						. Initially, I was reluctant to learn CSS because it
+						seemed complicated. But ever since I started playing
+						around with tailwind everything got so much more fun.
+						That in combination with frameworks such as{" "}
+						<span className="text-[#64ffda]">Next Js</span> . I
+						found myself starting to build full-stack applications.
+						Since then, I’ve been honing my skills and learning
+						Typescript, and tailwind. I recently graduated from
+						Middle East College with a{" "}
+						<span className="text-[#64ffda]">
+							Computer Science degree
+						</span>
+						. I’m seeking a{" "}
+						<span className="text-[#64ffda]">full-time role</span>
+						where I can help a company achieve their goals and put
+						my skills to use.
 					</motion.p>
 				</div>
 			</div>

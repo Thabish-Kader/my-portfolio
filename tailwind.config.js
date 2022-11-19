@@ -11,5 +11,5 @@ module.exports = {
 			terminal: ["VT323", "monospace"],
 		},
 	},
-	plugins: [],
+	plugins: [require("tailwind-scrollbar-hide")],
 };

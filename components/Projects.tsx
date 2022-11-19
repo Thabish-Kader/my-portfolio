@@ -17,10 +17,10 @@ export const Projects = (props: Props) => {
 			id="projects"
 			className="snap-start h-screen relative flex flex-col text-left md:flex-row max-w-full overflow-hidden justify-evenly mx-auto items-center z-0"
 		>
-			<h1 className=" absolute top-24 left-[40%] text-[#64ffda] text-4xl uppercase tracking-[15px] font-bold">
+			<h1 className=" absolute top-24 left-[40%] text-[#64ffda] animate-pulse text-4xl uppercase tracking-[15px] font-bold">
 				Projects
 			</h1>
-			<div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
+			<div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-hide">
 				{projects.map((project, i) => (
 					<div
 						key={i}
@@ -57,7 +57,7 @@ export const Projects = (props: Props) => {
 					</div>
 				))}
 			</div>
-			{/* <div className="w-full animate-pulse absolute top-[30%] bg-[#64ffda]/25 left-0 h-[500px] skew-y-12"></div> */}
+
 			<div className="absolute top-[0] left-10 h-screen  lg:border border-gray-500"></div>
 			<p className="hidden py-1 lg:block absolute top-[60%] left-[-100px] bg-[#0a192f] uppercase tracking-widest text-gray-500  rotate-90">
 				Projects i have worked on
