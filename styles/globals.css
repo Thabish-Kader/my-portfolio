@@ -9,7 +9,7 @@
 		@apply uppercase text-sm hover:text-[#64ffda] text-gray-500 hover:border px-2 rounded-lg hover:border-[#64ffda] tracking-wide;
 	}
 	.contact-inputs {
-		@apply bg-[#2f3133] rounded-lg  focus:border-b p-2 outline-none focus:text-[#64ffda] focus:border-[#64ffda]  text-gray-500 placeholder:text-gray-500;
+		@apply rounded-lg bg-transparent border  focus:border-b p-2 border-[#64ffda] outline-none focus:text-[#64ffda] focus:border-[#64ffda]  text-gray-500 placeholder:text-gray-500;
 	}
 }
 

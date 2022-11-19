@@ -14,17 +14,17 @@ export const Header = (props: Props) => {
 				className="space-x-3"
 			>
 				<SocialIcon
-					bgColor="gray"
+					bgColor="#64ffda"
 					style={{ height: 45, width: 45 }}
 					url="https://www.linkedin.com/in/thabish-a-kader-366447224/"
 				/>
 				<SocialIcon
-					bgColor="gray"
+					bgColor="#64ffda"
 					style={{ height: 45, width: 45 }}
 					url="https://twitter.com/DeveloperTak"
 				/>
 				<SocialIcon
-					bgColor="gray"
+					bgColor="#64ffda"
 					style={{ height: 45, width: 45 }}
 					url="https://github.com/Thabish-Kader"
 				/>
@@ -37,11 +37,11 @@ export const Header = (props: Props) => {
 				transition={{ duration: 1 }}
 				className="space-x-2 flex items-center"
 			>
-				<p className="text-lg font-medium uppercase text-[#808080]">
+				<p className="text-lg font-medium uppercase text-[#64ffda]">
 					Lets Connect
 				</p>
 				<SocialIcon
-					bgColor="gray"
+					bgColor="#64ffda"
 					style={{ height: 45, width: 45 }}
 					url="mailto:kadertabish@gmail.com"
 				/>

@@ -9,7 +9,7 @@ export const About = (props: Props) => {
 	return (
 		<section id="about" className="h-screen snap-start">
 			<div className="flex max-w-lg sm:max-w-xl md:max-w-5xl mx-auto flex-col h-full items-center justify-center">
-				<h1 className="text-gray-500 text-2xl uppercase tracking-[15px] font-bold mb-20">
+				<h1 className="text-[#64ffda] animate-pulse text-4xl uppercase tracking-[15px] font-bold mb-20">
 					About ME
 				</h1>
 				<div className="grid md:grid-cols-2 gap-2 ">

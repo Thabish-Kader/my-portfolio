@@ -24,14 +24,14 @@ export const Contact = (props: Props) => {
 			transition={{ duration: 3 }}
 			className="h-screen overflow-x-hidden snap-start relative flex flex-col items-center justify-center"
 		>
-			<h1 className="absolute top-24 left-[40%] text-gray-500 text-2xl uppercase tracking-[15px] font-bold">
+			<h1 className="absolute top-24 left-[40%]  text-[#64ffda] text-4xl uppercase tracking-[15px] font-bold">
 				Contact
 			</h1>
 			<div>
 				<h1 className="text-xl text-gray-500 tracking-widest uppercase max-w-xl">
 					Feel free to reach out it you're looking for a developer,
 					have a question or just want to{" "}
-					<span className="text-purple-500 animate-pulse">
+					<span className="text-[#64ffda] animate-pulse">
 						CONNECT
 					</span>
 					<form
@@ -67,7 +67,7 @@ export const Contact = (props: Props) => {
 						/>
 						<button
 							type="submit"
-							className="bg-purple-500 font-semibold uppercase animate-pulse p-2 rounded-lg text-black hover:bg-white duration-500 "
+							className=" font-semibold uppercase animate-pulse p-2 rounded-lg text-[#64ffda] border-[#64ffda] border hover:bg-[#64ffda] hover:text-black duration-500 "
 						>
 							Submit
 						</button>
