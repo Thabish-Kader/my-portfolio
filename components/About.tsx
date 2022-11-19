@@ -33,8 +33,8 @@ export const About = (props: Props) => {
 						transition={{ duration: 1 }}
 						className="text-gray-500 text-justify"
 					>
-						Hi there! I’m{" "}
-						<span className="text-[#64ffda]">Thabish</span>. I’m a
+						Hi there! I'm{" "}
+						<span className="text-[#64ffda]">Thabish </span>. I' m a
 						passionate developer who loves building things with
 						code. My first experience with programming was when I
 						started my coding journey as a naive computer science
@@ -59,7 +59,7 @@ export const About = (props: Props) => {
 							Computer Science degree
 						</span>
 						. I’m seeking a{" "}
-						<span className="text-[#64ffda]">full-time role</span>
+						<span className="text-[#64ffda]">full-time role </span>
 						where I can help a company achieve their goals and put
 						my skills to use.
 					</motion.p>
