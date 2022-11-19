@@ -35,7 +35,7 @@ export const Contact = (props: Props) => {
 						CONNECT
 					</span>
 					<form
-						onClick={handleSubmit(onSubmit)}
+						onSubmit={handleSubmit(onSubmit)}
 						className="flex mt-10 flex-col justify-center space-y-5 w-fit"
 					>
 						<div className="flex justify-center space-x-2">
