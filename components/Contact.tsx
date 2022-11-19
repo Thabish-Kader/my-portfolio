@@ -31,8 +31,8 @@ export const Contact = (props: Props) => {
 			</h1>
 			<div>
 				<h1 className="text-xl text-gray-500 tracking-widest uppercase max-w-xl">
-					Feel free to reach out it you're looking for a developer,
-					have a question or just want to{" "}
+					Feel free to reach out it you&apos;re looking for a
+					developer, have a question or just want to{" "}
 					<span className="text-[#64ffda] animate-pulse">
 						CONNECT
 					</span>

@@ -10,7 +10,7 @@ export default function Home() {
 	return (
 		<div className="bg-[#0a192f] h-screen text-white scroll-smooth snap-y snap-mandatory overflow-scroll">
 			<Head>
-				<title>Thabish Protfolio</title>
+				<title>Thabish&apos;s Protfolio</title>
 				<meta />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
