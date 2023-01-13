@@ -56,6 +56,20 @@ export const ProjectsRow = (props: Props) => {
 						alt="/"
 						className="object-cover h-12 w-12 rounded-full"
 					/>
+					{props.stack4 && (
+						<Image
+							src={props.stack4 as StaticImageData}
+							alt="/"
+							className="object-cover h-12 w-12 rounded-full"
+						/>
+					)}
+					{props.stack5 && (
+						<Image
+							src={props.stack5 as StaticImageData}
+							alt="/"
+							className="object-contain h-12 w-12 rounded-full"
+						/>
+					)}
 				</div>
 
 				<p className="text-justify ">{props.projectDescription}</p>

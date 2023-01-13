@@ -9,7 +9,9 @@ import trpcImg from "../public/assets/trpcImg.svg";
 import tailwind from "../public/assets/tailwind.jpg";
 import git from "../public/assets/git.png";
 import sanity from "../public/assets/sanity.png";
-import t3 from "../public/assets/t3.png";
+import graphql from "../public/assets/graphql.png";
+import react from "../public/assets/react.png";
+import node from "../public/assets/node.png";
 import Image from "next/image";
 type Props = {};
 
@@ -42,17 +44,19 @@ export const Skills = (props: Props) => {
 						name="TypeScript"
 					/>
 					<SkillRow image={nextImg} slide="left" name="Next Js" />
+					<SkillRow image={react} name="React" />
+					<SkillRow image={node} name="Node JS" />
+					<SkillRow image={tailwind} name="Taillwind" />
 					<SkillRow image={prismaImg} slide="left" name="Prisma" />
+					<SkillRow image={graphql} name="GraphQl" />
 					<SkillRow
 						image={firebaseImg}
 						slide="left"
 						name="Firebase"
 					/>
 					<SkillRow image={trpcImg} name="tRPC" />
-					<SkillRow image={tailwind} name="Taillwind" />
 					<SkillRow image={git} name="Git" />
 					<SkillRow image={sanity} name="Sanity" />
-					<SkillRow image={t3} name="T3" />
 				</div>
 			</motion.div>
 

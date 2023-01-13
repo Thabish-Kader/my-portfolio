@@ -14,19 +14,28 @@ export const Header = (props: Props) => {
 				className="space-x-3"
 			>
 				<SocialIcon
-					bgColor="#64ffda"
-					style={{ height: 45, width: 45 }}
+					bgColor="transparent"
+					fgColor="#64ffda"
+					style={{ height: 60, width: 60 }}
 					url="https://www.linkedin.com/in/thabish-a-kader-366447224/"
 				/>
 				<SocialIcon
-					bgColor="#64ffda"
-					style={{ height: 45, width: 45 }}
+					bgColor="transparent"
+					fgColor="#64ffda"
+					style={{ height: 60, width: 60 }}
 					url="https://twitter.com/DeveloperTak"
 				/>
 				<SocialIcon
-					bgColor="#64ffda"
-					style={{ height: 45, width: 45 }}
+					bgColor="transparent"
+					fgColor="#64ffda"
+					style={{ height: 60, width: 60 }}
 					url="https://github.com/Thabish-Kader"
+				/>
+				<SocialIcon
+					bgColor="transparent"
+					fgColor="#64ffda"
+					style={{ height: 60, width: 60 }}
+					url="https://www.youtube.com/channel/UCv4o5GTLBg2IH2P7iYj1nwQ"
 				/>
 			</motion.div>
 

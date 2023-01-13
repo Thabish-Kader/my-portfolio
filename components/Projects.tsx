@@ -7,7 +7,7 @@ import { projectData } from "../projectData";
 type Props = {};
 
 export const Projects = (props: Props) => {
-	const projects = [1, 2, 3, 4, 5, 6];
+	// const projects = [1, 2, 3, 4, 5, 6];
 	return (
 		<motion.section
 			initial={{ opacity: 0 }}
@@ -29,6 +29,8 @@ export const Projects = (props: Props) => {
 						stack1={project.stack1}
 						stack2={project.stack2}
 						stack3={project.stack3}
+						stack4={project.stack4}
+						stack5={project.stack5}
 						projectDescription={project.projectDescription}
 						link={project.link}
 						code={project.code}
